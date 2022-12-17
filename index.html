@@ -18,25 +18,25 @@
             <a id="id_u_info">User Information</a>
             <p>
                 <label for="idname">Name : *</label>
-                <input type="text" name="b_name" id="idname" required />
+                <input type="text" name="b_name" id="idname" value="sahina karki" required />
             </p>
             <fieldset class="inp">
                 male<input type="radio" name="b_gender" id="idmale" required />
-                female<input type="radio" name="b_gender" id="idfemale" />
+                female<input type="radio" name="b_gender" id="idfemale" checked/>
                 others<input type="radio" name="b_gender" id="idothers" />
                 <legend class="inp" id="_gender">Gender*</legend>
             </fieldset>
             <p>
                 <label for="idaddress">Adress : *</label>
-                <input type="text" name="b_name" id="idaddress" required />
+                <input type="text" name="b_name" id="idaddress" value="Damak jhapa nepal" required />
             </p>
             <p>
                 <label for="idabout">About you :</label>
-                <textarea name="b_adress" id="idabout" cols="30" rows="10"></textarea>
+                <textarea name="b_adress" id="idabout" cols="30" rows="10">world's most beautiful</textarea>
             </p>
             <p>
                 <label for="idmail">Email : *</label>
-                <input type="email" name="b_mail" id="idmail" required>
+                <input type="email" name="b_mail" id="idmail" value="sahina7802@gmail.com" required>
             </p>
             <p>
                 <label for="idpin">pincode : *</label>
@@ -44,13 +44,13 @@
             </p>
             <h3>Payment Information</h3>
             <p class="inp">
-                <label for="idcard">select a card :</label>
+                <label for="idcard">chose a card :</label>
                 <select name="b_card" id="idcard" required>
-                    <option value="#" selected>--select a card--</option>
+                    <option value="#" selected>--chose a card--</option>
                     <option value="b_Visa">Visa Card</option>
                     <option value="b_Master">Master Card</option>
-                    <option value="b_Cradit">Credit Card</option>
-                    <option value="b_Davit">Debit Card</option>
+                    <option value="b_Cradit">Cradit Card</option>
+                    <option value="b_Davit">Davit Card</option>
                 </select>
             </p>
             <p>
@@ -66,8 +66,9 @@
                 <input type="text" name="b_cvv" id="idcvv" required>
             </p>
             <button type="reset" id="idreset">reset</button>
-            <button  type="submit" id="idsubmit">submit</button>
+            <button type="submit" id="idsubmit">submit</button>
         </header>
+    </form>
 </body>
 
 </html>
